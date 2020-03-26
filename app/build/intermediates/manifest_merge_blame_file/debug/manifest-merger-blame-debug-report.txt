@@ -1,0 +1,277 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.examples.youtubeapidemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="17"
+8-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="29" />
+9-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:7:15-44
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:9:5-67
+11-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:9:22-64
+12
+13    <application
+13-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:11:5-146:19
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.1.0] C:\Users\beso\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:label="@string/youtube_api_demo"
+16-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:11:18-58
+17        android:testOnly="true" >
+18        <activity
+18-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:12:9-25:20
+19            android:name="com.examples.youtubeapidemo.YouTubeAPIDemoActivity"
+19-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:13:13-51
+20            android:label="@string/youtube_api_demo" >
+20-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:14:13-53
+21            <intent-filter>
+21-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:15:13-20:29
+22                <action android:name="android.intent.action.VIEW" />
+22-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:16:17-69
+22-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:16:25-66
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:17:17-69
+23-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:17:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:19:17-77
+25-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:19:27-74
+26            </intent-filter>
+27
+28            <meta-data
+28-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:22:13-24:41
+29                android:name="@string/isLaunchableActivity"
+29-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:23:17-60
+30                android:value="false" />
+30-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:24:17-38
+31        </activity>
+32        <activity
+32-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:27:9-39:20
+33            android:name="com.examples.youtubeapidemo.MyActivity"
+33-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:27:19-45
+34            android:configChanges="orientation|screenSize|keyboardHidden"
+34-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:29:13-74
+35            android:label="@string/My_Activity" >
+35-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:28:13-48
+36            <meta-data
+36-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:31:13-33:38
+37                android:name="@string/minVersion"
+37-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:32:17-50
+38                android:value="11" />
+38-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:33:17-35
+39            <meta-data
+39-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:22:13-24:41
+40                android:name="@string/isLaunchableActivity"
+40-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:23:17-60
+41                android:value="true" />
+41-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:24:17-38
+42        </activity>
+43        <activity
+43-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:41:9-53:20
+44            android:name="com.examples.youtubeapidemo.VideoWallDemoActivity"
+44-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:42:13-50
+45            android:configChanges="orientation|screenSize|keyboardHidden"
+45-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:43:13-74
+46            android:label="@string/videowall_demo_name"
+46-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:44:13-56
+47            android:screenOrientation="landscape"
+47-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:45:13-50
+48            android:theme="@style/BlackNoBarsTheme" >
+48-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:46:13-52
+49            <meta-data
+49-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:31:13-33:38
+50                android:name="@string/minVersion"
+50-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:32:17-50
+51                android:value="11" />
+51-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:33:17-35
+52            <meta-data
+52-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:22:13-24:41
+53                android:name="@string/isLaunchableActivity"
+53-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:23:17-60
+54                android:value="true" />
+54-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:24:17-38
+55        </activity>
+56        <activity
+56-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:54:9-64:20
+57            android:name="com.examples.youtubeapidemo.VideoListDemoActivity"
+57-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:55:13-50
+58            android:configChanges="orientation|keyboardHidden|screenSize"
+58-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:56:13-74
+59            android:label="@string/videolist_demo_name" >
+59-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:57:13-56
+60            <meta-data
+60-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:31:13-33:38
+61                android:name="@string/minVersion"
+61-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:32:17-50
+62                android:value="13" />
+62-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:33:17-35
+63            <meta-data
+63-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:22:13-24:41
+64                android:name="@string/isLaunchableActivity"
+64-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:23:17-60
+65                android:value="true" />
+65-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:24:17-38
+66        </activity>
+67        <activity
+67-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:65:9-76:20
+68            android:name="com.examples.youtubeapidemo.PlayerViewDemoActivity"
+68-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:66:13-51
+69            android:configChanges="orientation|screenSize|keyboardHidden"
+69-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:67:13-74
+70            android:label="@string/playerview_demo_name"
+70-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:68:13-57
+71            android:screenOrientation="nosensor" >
+71-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:69:13-49
+72            <meta-data
+72-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:31:13-33:38
+73                android:name="@string/minVersion"
+73-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:32:17-50
+74                android:value="8" />
+74-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:33:17-35
+75            <meta-data
+75-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:22:13-24:41
+76                android:name="@string/isLaunchableActivity"
+76-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:23:17-60
+77                android:value="true" />
+77-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:24:17-38
+78        </activity>
+79        <activity
+79-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:77:9-88:20
+80            android:name="com.examples.youtubeapidemo.FragmentDemoActivity"
+80-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:78:13-49
+81            android:configChanges="orientation|screenSize|keyboardHidden"
+81-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:79:13-74
+82            android:label="@string/fragment_demo_name"
+82-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:80:13-55
+83            android:screenOrientation="nosensor" >
+83-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:81:13-49
+84            <meta-data
+84-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:31:13-33:38
+85                android:name="@string/minVersion"
+85-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:32:17-50
+86                android:value="11" />
+86-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:33:17-35
+87            <meta-data
+87-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:22:13-24:41
+88                android:name="@string/isLaunchableActivity"
+88-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:23:17-60
+89                android:value="true" />
+89-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:24:17-38
+90        </activity>
+91        <activity
+91-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:89:9-99:20
+92            android:name="com.examples.youtubeapidemo.PlayerControlsDemoActivity"
+92-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:90:13-55
+93            android:label="@string/player_controls_demo_name"
+93-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:91:13-62
+94            android:windowSoftInputMode="stateHidden" >
+94-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:92:13-54
+95            <meta-data
+95-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:31:13-33:38
+96                android:name="@string/minVersion"
+96-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:32:17-50
+97                android:value="8" />
+97-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:33:17-35
+98            <meta-data
+98-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:22:13-24:41
+99                android:name="@string/isLaunchableActivity"
+99-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:23:17-60
+100                android:value="true" />
+100-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:24:17-38
+101        </activity>
+102        <activity
+102-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:100:9-112:20
+103            android:name="com.examples.youtubeapidemo.FullscreenDemoActivity"
+103-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:101:13-51
+104            android:configChanges="keyboardHidden|orientation|screenSize"
+104-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:102:13-74
+105            android:label="@string/fullscreen_demo_name"
+105-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:103:13-57
+106            android:screenOrientation="sensor"
+106-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:104:13-47
+107            android:theme="@style/BlackNoTitleBarTheme" >
+107-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:105:13-56
+108            <meta-data
+108-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:31:13-33:38
+109                android:name="@string/minVersion"
+109-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:32:17-50
+110                android:value="8" />
+110-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:33:17-35
+111            <meta-data
+111-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:22:13-24:41
+112                android:name="@string/isLaunchableActivity"
+112-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:23:17-60
+113                android:value="true" />
+113-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:24:17-38
+114        </activity>
+115        <activity
+115-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:113:9-125:20
+116            android:name="com.examples.youtubeapidemo.ActionBarDemoActivity"
+116-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:114:13-50
+117            android:configChanges="keyboardHidden|orientation|screenSize"
+117-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:115:13-74
+118            android:label="@string/action_bar_demo_name"
+118-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:116:13-57
+119            android:screenOrientation="sensorLandscape"
+119-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:117:13-56
+120            android:theme="@style/OverlayActionBarTheme" >
+120-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:118:13-57
+121            <meta-data
+121-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:31:13-33:38
+122                android:name="@string/minVersion"
+122-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:32:17-50
+123                android:value="11" />
+123-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:33:17-35
+124            <meta-data
+124-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:22:13-24:41
+125                android:name="@string/isLaunchableActivity"
+125-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:23:17-60
+126                android:value="true" />
+126-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:24:17-38
+127        </activity>
+128        <activity
+128-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:126:9-135:20
+129            android:name="com.examples.youtubeapidemo.StandalonePlayerDemoActivity"
+129-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:127:13-57
+130            android:label="@string/standalone_player_demo_name" >
+130-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:128:13-64
+131            <meta-data
+131-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:31:13-33:38
+132                android:name="@string/minVersion"
+132-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:32:17-50
+133                android:value="8" />
+133-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:33:17-35
+134            <meta-data
+134-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:22:13-24:41
+135                android:name="@string/isLaunchableActivity"
+135-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:23:17-60
+136                android:value="true" />
+136-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:24:17-38
+137        </activity>
+138        <activity
+138-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:136:9-145:20
+139            android:name="com.examples.youtubeapidemo.IntentsDemoActivity"
+139-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:137:13-48
+140            android:label="@string/intents_demo_name" >
+140-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:138:13-54
+141            <meta-data
+141-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:31:13-33:38
+142                android:name="@string/minVersion"
+142-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:32:17-50
+143                android:value="8" />
+143-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:33:17-35
+144            <meta-data
+144-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:22:13-24:41
+145                android:name="@string/isLaunchableActivity"
+145-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:23:17-60
+146                android:value="true" />
+146-->C:\Users\beso\AndroidFlutterProjs\sample\app\src\main\AndroidManifest.xml:24:17-38
+147        </activity>
+148    </application>
+149
+150</manifest>
